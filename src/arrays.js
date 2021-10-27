@@ -1,6 +1,6 @@
 console.debug("arrays.js started.");
 
-const alunosInterno = ["luizinho", "uguinho", "zezinho"];
+const alunosInterno = ["luizinho", "uguinho", "zezinho", "beltrano"];
 export { alunosInterno as alunos };
 
 export default function createList(pref = "sr") {

@@ -2,14 +2,17 @@
   "name": "vanilla",
   "version": "1.0.0",
   "description": "JavaScript example starter project",
-  
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": { "parcel": "^2.0.0" },
-  
-  "keywords": ["javascript", "starter"],
+  "dependencies": {
+    "parcel": "2.0.0"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ],
   "browserslist": [
     "last 1 Chrome version"
   ]
