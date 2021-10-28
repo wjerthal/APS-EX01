@@ -126,6 +126,16 @@ const somaColuna = (estado, item) => {
 const vetor2 = matriz.reduce(somaColuna, [0, 0, 0]);
 console.log(vetor2);
 
+function fatorial(n) {
+  var p = 1;
+  for (var i = 2; i <= n; i++) p = p * i;
+  return p;
+}
+
+console.log(fatorial(4));
+console.log(fatorial(5));
+console.log(fatorial(6));
+
 console.log("***");
 console.log("******");
 console.log("*********");
